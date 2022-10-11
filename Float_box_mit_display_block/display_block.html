@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(66, 235, 192);
+    padding: 1%;
+    margin: 1%;
+    color: white;
+}
+.clearfix {
+    font-size: 0;
+}
+p {
+    font-size: initial;
+}
+.twoColumns {
+    display: inline-block;
+    width: 48%;
+    background-color: rgb(53, 167, 219);
+    padding: 20px;
+    margin: 1%;
+}
+.threeColumns {
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+    width: 31.3%;
+    background-color: rgb(53, 167, 219);
+}
+</style>
+</head>
+<body>
+<h1>Spaltenlayout1</h1>
+<div class="clearfix">
+<div class ="twoColumns">
+    <p>2 Spalten<br>flexibel</p>
+</div>
+<div class ="twoColumns">
+    <p>2 Spalten<br>flexibel</p>
+</div>
+
+<div class ="twoColumns">
+    <p>2 Spalten<br>dynamisch</p>
+</div>
+<div class ="twoColumns">
+    <p>2 Spalten<br>dynamisch</p>
+</div>
+
+<div class ="threeColumns">
+    <p>3 Spalten<br>flexibel</p>
+</div>
+<div class ="threeColumns">
+    <p>3 Spalten<br>dynamisch</p>
+</div>
+<div class ="threeColumns">
+    <p>3 Spalten<br>anpassen</p>
+</div>
+</div>
+</body>
+</html>
