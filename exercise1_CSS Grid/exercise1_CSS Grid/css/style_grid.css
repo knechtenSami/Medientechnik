@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 80%;
+}
+
+
+.container {  
+  width: 100vw;
+  grid-gap: 10px;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 5rem 2fr 1fr;
+  grid-template-columns: repeat(4, 25%);
+  justify-content: center;
+}
+
+
+.item1 {
+  background-color:rgb(155, 170, 182);
+  grid-column: 1 / 5;
+  text-align: center;
+  font-size: 400%;
+  font-weight: 450;
+}
+
+
+.item2 {
+  background-color:beige;
+  padding: 2.5%;
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
+  font-weight: 500;
+  font-size: 110%;
+}
+
+.images {
+  width: 95%;
+}
+
+.images img{
+  width: 100%;
+  height: auto;
+}
+
+.item3 {
+  grid-column: 3 / 5;
+}
+
+
+.item4, .item5{
+  background-color: rgb(155, 170, 182);
+  font-weight: 500;
+  font-size: 110%;
+  padding: 5%;
+}
