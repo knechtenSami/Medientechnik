@@ -1,0 +1,39 @@
+body{
+    background:url(../img/hintergrundbild.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.table_box {
+    background-color:white;
+    padding: 5em;
+    width: 50%;
+    margin: 5em auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+table{
+    border-collapse: collapse;
+    border: 5px solid black;
+    width: 100%;
+}
+
+th, td{
+    padding:1em;
+    border: 2px dotted black;
+}
+thead{
+    background-color:rgb(133, 9, 9);
+    color:white;
+    text-align:left;
+}
+tfoot{
+    font-size: 80%;
+    text-align:center;
+}
+
+tbody tr:hover {
+    background-color:silver;
+}
