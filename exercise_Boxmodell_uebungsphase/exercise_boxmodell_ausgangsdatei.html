@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<title>exercise Box-Modell</title>
+		<style>
+			body{
+				background-color: #585858;
+				font-family: Calibri, sans-serif;
+				margin: 0px;
+				padding: 0px;
+			}
+
+			#wrapper{
+				width: 800px;
+				margin-bottom: 20px;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 20px;
+				background-color: white;
+				padding: 20px;
+			}
+
+			h1{
+				font-size: 140%;
+				background-color: silver;
+				padding: 5px;
+				border-bottom: 10px double red;
+			}
+			
+			b{
+				color: red;
+			}
+
+			img{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.linkbutton{
+				color: red;
+				width: 150px;
+				font-size: 15px;
+				padding: 10px;
+				border: 2px solid red;
+				border-radius: 7px;
+				text-align: center;
+				text-decoration-line: none;
+				display: block;
+				margin: 20px;
+			}
+			.linkbutton:hover{
+				color: grey;
+				width: 150px;
+				font-size: 15px;
+				padding: 10px;
+				border: 2px solid grey;
+				border-radius: 7px;
+				text-align: center;
+				text-decoration-line: none;
+				display: block;
+				margin: 20px;
+			}
+			#imgborder{
+				border: 3px dotted black;
+				margin-left: 130px;
+				margin-right: 130px;
+				padding: 10px;
+			}
+
+			#box{
+				background-color: silver;
+				border-left: 10px solid red;
+				width: 500px;
+				padding-bottom: 1%;
+				padding-top: 1%;
+				
+			}
+			
+		
+		</style>
+		
+	</head>
+
+	<body>
+		<div id="wrapper">
+		<h1>CSS3 Box-Modell</h1>
+		<!--Füge hier erneut ein div-Element ein und weise erneut eine id zu. Überlege dir, wo dieser Tag geschlossen werden muss.-->
+		<div id="imgborder">
+			<img src="images/400px-Box-Modell.png" alt="Box-Modell"> 
+
+			<p>Eine Box kann bestehen aus:</p>
+
+			<div id="box">
+
+   			<ul>
+   				<li>einem Inhaltsbereich, also der Fläche, die durch Texte und Bilder<br>oder Eigenschaften wie width und height vorgegeben wird,</li>
+   				<li>einem Innenabstand (padding),</li>
+   				<li>einem Rahmen (border) und</li>
+   				<li>einem Außenabstand (margin).</li>
+   			</ul> 
+			</div>
+		</div>
+		
+		<p>Die komplette Breite eines Elements berechnet sich wie folgt:<br>
+
+   		 <b>margin-left + border-left-width + padding-left + width + padding-right + border-right-width + margin-right</b></p>
+    		<br>
+
+		<p>Die komplette Höhe eines Elements berechnet sich wie folgt:<br>
+
+   		 <b>margin-top + border-top-width + padding-top + height + padding-bottom + border-bottom-width + margin-bottom</b></p>
+	
+		<a class="linkbutton" href="https://www.w3schools.com/css/css_boxmodel.asp">Mehr Infos unter w3schools.com</a>	
+		</div>	
+	</body>
+</html>
